@@ -12,3 +12,5 @@ Design, kód, képek: Ivanics Réka
 
 Live demo: http://mezesblogsablon.ivanicsreka.eu/
 
+![Blogsablon kép](https://github.com/rekaivanics/wptheme_ginger/blob/master/screen_mezesblog.png)
+
