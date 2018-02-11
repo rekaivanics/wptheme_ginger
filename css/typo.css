@@ -1,0 +1,49 @@
+p {
+  line-height: 1.5;
+}
+h1 {
+  font-family: 'Allura';
+  color: #5b1e01; /*csokibarna*/
+  font-size: 82px;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+h2 {
+  font-family: 'Merienda';
+  font-size: 28px;
+  color: #5b1e01; /*csokibarna*/
+  padding: 15px;
+  margin-top: 20px;
+  line-height: 1.1;
+
+}
+h3 {
+  font-family: 'Merienda';
+  font-size: 22px;
+  color: #5b1e01; /*csokibarna*/
+  padding: 15px;
+}
+p {
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: #5b1e01; /*csokibarna*/
+  line-height: 1.5;
+  padding: 20px 10px;
+}
+
+.align-center {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  h1,h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+
+}

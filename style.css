@@ -1,0 +1,312 @@
+/*
+Theme name: Basic Theme
+Theme URL: http://myblog.ivanicsreka.eu/sajat-theme
+Author: Ivanics Réka
+Author URL: http://ivanicsreka.eu
+Description: Basic theme by Ivanics Réka
+Version: 1.0
+License GNU General Public License v2 or later
+License URL http://gnu.org/license/gpt-2.0.html
+Text Domain: basic-theme
+*/
+
+body {
+  background-color: #fff9f4;
+  font-size: 18px;
+  color: #5b1e01; /*csokibarna*/
+
+}
+a {
+  text-decoration: none;
+  color: #5b1e01; /*csokibarna*/
+}
+.button {
+  background: #5b1e01; /*csokibarna*/
+  display: inline-block;
+  padding: 15px;
+  margin: 25px;
+  color: #fff9f4;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Raleway';
+  border-radius: 5%;
+  box-shadow: 8px 8px 10px #aaa;
+}
+.button:hover {
+  background-color: #fff9f4;
+  color: #5b1e01; /*csokibarna*/
+  box-shadow: 0 0 0 10px #5b1e01;
+  transition: .5s ease;
+}
+.button a {
+  border: 1px solid white;
+}
+.center-box {
+  width: 1200px; /*gyakorlatilag az egész oldal 1200px*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+.center-box h2, .center-box h3 {
+  text-align: center;
+}
+header {
+  padding: 15px 0;
+}
+#navigation {
+  background-color: #5b1e01; /*csokibarna*/
+  float: right;
+  width: 100%;
+  padding: 20px;
+}
+.inner-page {
+  margin-bottom: 40px;
+}
+nav ul {
+  float: right;
+}
+nav ul li{
+  float: left;
+  text-align: left;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  background-color: #fff9f4;
+  color: #5b1e01; /*csokibarna*/
+}
+section {
+  position: relative;
+}
+#services::after, #offer::after, #team::after { /*a kisminta*/
+  content: "";
+  position: absolute;
+  background: url(img/pattern.png) center no-repeat;
+  height: 30px;
+  width: 100%;
+  left:0;
+
+}
+
+#top {
+  background: url(img/fej_4.jpg) top center no-repeat;
+  background-size: 1200px;
+}
+#logo {
+  width: 60%;
+  margin: 80px auto;
+  background: rgba(50,50,50,0.6); /*nem opacy! ha az lenne, belűl is halvány!*/
+  border: 2px double white;
+  text-align: center;
+  padding: 60px 0;
+}
+#logo h1 {
+  color: white; !important
+}
+#intro p, #services p, #offer p, #team p {
+  margin: 0 0 15px 0;
+}
+#services {
+  padding: 70px 0;
+}
+.service {
+  margin-bottom: 40px;
+}
+ img {
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px #aaa;
+  padding: 5px;
+}
+.service-text {
+  text-align: center;
+  margin: 50px 0;
+}
+.service h3 {
+  margin: 0 0 15px 0;
+
+}
+#offer {
+  background: url(img/offer_2.png) 20% 30% no-repeat;
+  padding: 70px 0;
+
+}
+#offer-text {
+  float: right;
+  width: 50%;
+}
+#offer h3 {
+  margin: 0 0 15px 0;
+}
+#offer ul {
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+#offer ul li {
+  font-family: 'Raleway';
+  margin-bottom: 8px;
+  line-height: 1.4;
+  position: relative;
+  padding-left: 30px;
+  float: left;
+}
+#offer ul li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 50%;
+  background: #5b1e01;
+  position: absolute;
+  left: 0;
+  top: 70%;
+  margin-top: -10px;
+}
+#team {
+  padding: 70px 0;
+}
+.team-member {
+  margin-bottom: 40px;
+}
+.team-text {
+  padding: 20px;
+  text-align: left;
+}
+.team-text p {
+  margin: 0 0 15px 0;
+}
+#testimonials {
+  clear: both;
+  padding: 3%;
+  text-align: center;
+}
+#testimonials h3 {
+  margin: 0 0 15px 0;
+}
+#testimonials p {
+  margin: 0 0 15px 0;
+}
+
+.widget {
+  font-family: 'Raleway';
+  margin-bottom: 30px;
+}
+input {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+article:nth-of-type(odd) {
+  clear: left;
+}
+
+.post-pic img {
+  float: left;
+  height: 300px;
+  width: auto;
+  margin: 20px 20px 10px 0;
+}
+
+footer {
+  margin-top: 30px;
+}
+footer .center-box {
+  text-align: left;
+}
+.social ul {
+  margin: 30px 0 0 0;
+  overflow: hidden;
+}
+.social li {
+  float: left;
+  margin: 15px;
+}
+.social li a {
+  width: 40px;
+  height: 40px;
+  border: solid 2px #5b1e01;
+  border-radius: 50%;
+  display: inline-block;
+  background-size: auto 16px;
+}
+.social li a:hover {
+  border-color: #fff9f4;
+}
+.facebook a {
+  background: url(img/facebook.svg) center center no-repeat;
+}
+.linkedin a {
+  background: url(img/instagram.svg) center center no-repeat;
+}
+.youtube a {
+  background: url(img/pinterest.svg) center center no-repeat;
+}
+@media only screen and (max-width: 1405px) {
+  #offer {
+    background: url(img/offer_2.png) 5% 30% no-repeat;
+    padding: 70px 0;
+
+  }
+}
+@media only screen and (max-width: 1225px) {
+
+  .center-box {
+      width: 100%!important;}
+
+
+      #offer {
+        background-image: none;
+      }
+
+      #offer-text {
+        width: 50%;
+        margin: 20px;
+      }
+
+
+}
+@media only screen and (max-width: 768px) {
+    #navigation, nav ul, nav ul li {
+      float: none;
+    }
+    #logo {
+      display: none;
+    }
+    #top {
+      background: none;
+    }
+
+    nav ul li a {
+      padding: 10px 0!important;
+      border-bottom: solid 1px #fff;
+      display: block;
+    }
+    #offer-text {
+      float: left;
+      width: 90%;
+    }
+
+    #intro {
+      width: 100%;
+    }
+    .team-text {
+      padding: 0;
+    }
+    footer {
+      padding: 30px 0;
+    }
+    footer .one-third {
+      margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 480px) {
+  #testimonials {
+    display: none;
+  }
+}
